@@ -2,7 +2,7 @@
 
 ## Analysis Overview
 
-This Analysis showcases my expertise in data analytics by leveraging SQL to extract, process, and evaluate transaction data. It involves constructing a structured database, conducting in-depth assessments of sales trends, and generating insights to support strategic decision-making. Through advanced query techniques, this analysis highlights my ability to work with complex datasets, optimize data workflows, and derive meaningful business intelligence.
+This Analysis showcases my expertise in data analytics by leveraging SQL to extract, process, and evaluate transaction data. It involves constructing a structured database, conducting in-depth assessments of trends, and generating insights to support strategic decision-making. Through advanced query techniques, this analysis highlights my ability to work with complex datasets, optimize data workflows, and derive meaningful business intelligence.
 
 ## Objectives
 
@@ -44,16 +44,16 @@ CREATE TABLE retail_sales (
 - **Handling Missing Data**: Detect and remove records containing null or missing values to ensure data quality.
 
 ```sql
-SELECT COUNT(*) FROM retail_sales;
-SELECT COUNT(DISTINCT customer_id) FROM retail_sales;
-SELECT DISTINCT category FROM retail_sales;
+SELECT COUNT(*) FROM retail_;
+SELECT COUNT(DISTINCT customer_id) FROM retail_;
+SELECT DISTINCT category FROM retail_;
 
-SELECT * FROM retail_sales
+SELECT * FROM retail_
 WHERE sale_date IS NULL OR sale_time IS NULL OR customer_id IS NULL OR 
       gender IS NULL OR age IS NULL OR category IS NULL OR 
       quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
 
-DELETE FROM retail_sales
+DELETE FROM retail_
 WHERE sale_date IS NULL OR sale_time IS NULL OR customer_id IS NULL OR 
       gender IS NULL OR age IS NULL OR category IS NULL OR 
       quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
@@ -63,7 +63,7 @@ WHERE sale_date IS NULL OR sale_time IS NULL OR customer_id IS NULL OR
 
 The following SQL queries were crafted to address specific business questions and uncover insights:
 
-1. **Retrieve all columns for sales made on '2022-01-05**:
+1. **Retrieve all columns for purchases made on '2022-01-05**:
 ```sql
 SELECT *
 FROM retail_sales
@@ -83,7 +83,7 @@ WHERE
     quantity >= 5
 ```
 
-3. **Calculate the Total Sales Amount for Each Product Category**:
+3. **Calculate the Total Purchase Amount for Each Product Category**:
 ```sql
 SELECT 
     category, 
@@ -93,7 +93,7 @@ FROM retail_sales
 GROUP BY category;
 ```
 
-4. **Write a SQL query to calculate the average age of customers who made purchases in the 'Beauty' category.**:
+4. **Write a SQL query to calculate the average age of customers who purchased in the 'Beauty' category.**:
 ```sql
 SELECT 
     ROUND(AVG(age), 2) AS avg_age 
@@ -139,7 +139,7 @@ FROM (
 WHERE rank = 1;
 ```
 
-8. **Write a SQL query to find the top 5 customers based on the highest total sales **:
+8. **Write a SQL query to find the top 5 customers based on the highest total purchase amount **:
 ```sql
 SELECT 
     customer_id, 
