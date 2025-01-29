@@ -2,21 +2,21 @@
 
 ## Project Overview
 
-This project is crafted to highlight essential SQL skills and methodologies commonly employed by data analysts to investigate, cleanse, and interpret retail sales data. It encompasses the creation of a retail sales database, conducting exploratory data analysis, and addressing targeted business inquiries using SQL queries. Through this project, I aim to demonstrate a strong proficiency in SQL and its practical applications in data analysis.
+This project is crafted to highlight essential SQL skills and methodologies commonly employed by data analysts to investigate, cleanse, and interpret retail data. It encompasses the creation of a database, conducting exploratory data analysis, and addressing targeted business inquiries using SQL queries. Through this project, I aim to demonstrate a strong proficiency in SQL and its practical applications in data analysis.
 
 ## Objectives
 
-1. **Database Setup**: Establish and populate a retail sales database using the provided dataset.
+1. **Database Setup**: Establish and populate a database using the provided dataset.
 2. **Data Cleaning Process**: Detect and eliminate records containing missing or null values to ensure data integrity.
-3. **Exploratory Data Analysis (EDA)**: Conduct initial data exploration to gain insights into the dataset's structure and trends.
-4. **Business Insights Extraction**: Leverage SQL to address key business questions and extract actionable insights from the sales data.
+3. **Exploratory Data Analysis **: Conduct initial data exploration to gain insights into the dataset's structure and trends.
+4. **Business Insights Extraction**: Leverage SQL to address key business questions and extract actionable insights from the data.
 
 ## Project Structure
 
 ### 1. Database Setup
 
 - **Creating the Database**: The project begins with the creation of a database named `retail_db`.
-- **Table Creation**: A table named `retail_sales` is designed to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
+- **Table Creation**: A table named `retail_sales` is designed to store the data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 
 ```sql
 CREATE DATABASE retail_db;
