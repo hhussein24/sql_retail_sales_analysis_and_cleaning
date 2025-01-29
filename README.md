@@ -170,16 +170,16 @@ FROM retail_sales
 GROUP BY shift;
 ```
 
-## Conclusion
+# Conclusion
 
-# Findings
+## Findings
 
 - **Diverse Customer Base**: The dataset includes a wide range of age groups, with purchases spanning multiple categories such as Clothing and Beauty.
 - **High-Value Transactions**: Several transactions exceeded $1,000, indicating premium product sales and high-spending customers.
 - **Sales Trends**: A month-by-month analysis highlights seasonal fluctuations, helping identify peak sales periods.
 - **Consumer Behavior**: The data reveals top-spending customers and the most frequently purchased product categories, aiding in business strategy.
 
-# Reports & Analysis
+## Reports & Analysis
 
 - **Revenue Overview**: A summary of total sales, customer demographics, and product performance.
 - **Trend Analysis**: A breakdown of sales variations across months and different time shifts (morning, afternoon, evening).
