@@ -4,6 +4,9 @@
 
 This Analysis showcases my expertise in data analytics by leveraging SQL to extract, process, and evaluate transaction data. It involves constructing a structured database, conducting in-depth assessments of trends, and generating insights to support strategic decision-making. Through advanced query techniques, this analysis highlights my ability to work with complex datasets, optimize data workflows, and derive meaningful business intelligence.
 
+### **🔗 Interactive Dashboard**
+👉 View the Interactive Sales Dashboard (https://public.tableau.com/views/Retail_sales_Analysis/UncoveringSalesCustomerInsights?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ## Objectives
 
 1. **Database Setup**: Establish and populate a database using the provided dataset.
